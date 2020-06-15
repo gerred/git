@@ -108,7 +108,7 @@ Updates since v1.7.1
    B (i.e. commits that are not descendants of A are excluded).
 
  * "git show -5" is equivalent to "git show --do-walk 5"; this is similar
-   to the update to make "git show master..next" walk the history,
+   to the update to make "git show main..next" walk the history,
    introduced in 1.6.4.
 
  * "git status [-s] --ignored" can be used to list ignored paths.

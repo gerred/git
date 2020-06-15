@@ -37,7 +37,7 @@ Fixes since v2.4.3
    versa) very well.
 
  * The "log --decorate" enhancement in Git 2.4 that shows the commit
-   at the tip of the current branch e.g. "HEAD -> master", did not
+   at the tip of the current branch e.g. "HEAD -> main", did not
    work with --decorate=full.
 
  * There was a commented-out (instead of being marked to expect

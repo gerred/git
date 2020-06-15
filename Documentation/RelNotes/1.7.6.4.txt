@@ -10,7 +10,7 @@ Fixes since v1.7.6.3
  * "git branch --set-upstream @{-1} foo" did not expand @{-1} correctly.
 
  * "git check-ref-format --print" used to parrot a candidate string that
-   began with a slash (e.g. /refs/heads/master) without stripping it, to make
+   began with a slash (e.g. /refs/heads/main) without stripping it, to make
    the result a suitably normalized string the caller can append to "$GIT_DIR/".
 
  * "git clone" failed to clone locally from a ".git" file that itself

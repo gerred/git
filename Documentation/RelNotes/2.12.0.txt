@@ -475,7 +475,7 @@ notes for details).
    having to memmove(3) unnecessary bytes.
    (merge 96f6d3f61a rs/ls-files-partial-optim later to maint).
 
- * A hotfix for a topic already in 'master'.
+ * A hotfix for a topic already in 'main'.
    (merge a4d92d579f js/mingw-isatty later to maint).
 
  * Other minor doc, test and build updates and code cleanups.

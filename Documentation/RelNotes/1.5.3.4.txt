@@ -9,7 +9,7 @@ Fixes since v1.5.3.3
    diagnosed and fixed by Keith and Carl.
 
  * Performance improvements for rename detection has been backported
-   from the 'master' branch.
+   from the 'main' branch.
 
  * "git-for-each-ref --format='%(numparent)'" was not working
    correctly at all, and --format='%(parent)' was not working for

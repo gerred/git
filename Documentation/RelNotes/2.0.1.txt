@@ -13,8 +13,8 @@ Git v2.0.1 Release Notes
    loose object file due to e.g. permission issues; it was reported as
    the object being corrupt, but that is not quite true.
 
- * "git log -2master" is a common typo that shows two commits starting
-   from whichever random branch that is not 'master' that happens to
+ * "git log -2main" is a common typo that shows two commits starting
+   from whichever random branch that is not 'main' that happens to
    be checked out currently.
 
  * The "%<(10,trunc)%s" pretty format specifier in the log family of

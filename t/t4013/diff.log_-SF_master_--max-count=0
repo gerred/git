@@ -1,2 +1,2 @@
-$ git log -SF master --max-count=0
+$ git log -SF main --max-count=0
 $

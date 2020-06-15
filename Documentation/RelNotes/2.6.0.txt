@@ -252,7 +252,7 @@ notes for details).
    that allows custom path to the --upload-pack=<program>.  This has
    been corrected.
 
-   Note that this is irrelevant for 'master' with "git pull" rewritten
+   Note that this is irrelevant for 'main' with "git pull" rewritten
    in C.
    (merge 13e0e28 mm/pull-upload-pack later to maint).
 
@@ -335,7 +335,7 @@ notes for details).
 
  * Recent versions of scripted "git am" has a performance regression in
    "git am --skip" codepath, which no longer exists in the built-in
-   version on the 'master' front.  Fix the regression in the last
+   version on the 'main' front.  Fix the regression in the last
    scripted version that appear in 2.5.x maintenance track and older.
    (merge b9d6689 js/maint-am-skip-performance-regression later to maint).
 

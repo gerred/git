@@ -2,7 +2,7 @@ GIT v1.5.4.6 Release Notes
 ==========================
 
 I personally do not think there is any reason anybody should want to
-run v1.5.4.X series these days, because 'master' version is always
+run v1.5.4.X series these days, because 'main' version is always
 more stable than any tagged released version of git.
 
 This is primarily to futureproof "git-shell" to accept requests
@@ -24,7 +24,7 @@ Fixes since v1.5.4.5
  * reflog syntax that uses time e.g. "HEAD@{10 seconds ago}:path" did not
    stop parsing at the closing "}".
 
- * "git rev-parse --symbolic-full-name ^master^2" printed solitary "^",
+ * "git rev-parse --symbolic-full-name ^main^2" printed solitary "^",
    but it should print nothing.
 
  * "git apply" did not enforce "match at the beginning" correctly.

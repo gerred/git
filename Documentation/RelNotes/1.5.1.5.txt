@@ -26,7 +26,7 @@ Fixes since v1.5.1.4
     (e.g. 'trunk') is open to public.
 
   - "git checkout branch^0" did not detach the head when you are
-    already on 'branch'; backported the fix from the 'master'.
+    already on 'branch'; backported the fix from the 'main'.
 
   - "git-config section.var" did not correctly work when
     existing configuration file had both [section] and [section "name"]

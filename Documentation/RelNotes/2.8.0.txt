@@ -234,7 +234,7 @@ Performance, Internal Implementation, Development Support etc.
    distros.
 
  * Out of maintenance gcc on OSX 10.6 fails to compile the code in
-   'master'; work it around by using clang by default on the platform.
+   'main'; work it around by using clang by default on the platform.
 
  * The "name_path" API was an attempt to reduce the need to construct
    the full path out of a series of path components while walking a

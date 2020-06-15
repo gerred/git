@@ -68,7 +68,7 @@ git.
 
  - reflog is an v1.4.0 invention.  This allows you to name a
    revision that a branch used to be at (e.g. "git diff
-   master@{yesterday} master" allows you to see changes since
+   main@{yesterday} main" allows you to see changes since
    yesterday's tip of the branch).
 
 
@@ -116,10 +116,10 @@ Updates in v1.5.0 since v1.4.4 series
    layout for a newly created repository with a working tree.
 
    A repository with the separate remote layout starts with only
-   one default branch, 'master', to be used for your own
+   one default branch, 'main', to be used for your own
    development.  Unlike the traditional layout that copied all
    the upstream branches into your branch namespace (while
-   renaming their 'master' to your 'origin'), the new layout
+   renaming their 'main' to your 'origin'), the new layout
    puts upstream branches into local "remote-tracking branches"
    with their own namespace. These can be referenced with names
    such as "origin/$upstream_branch_name" and are stored in
@@ -147,7 +147,7 @@ Updates in v1.5.0 since v1.4.4 series
      'next' for your own branch.  It also allows you to track a
      remote other than 'origin' (i.e. where you initially cloned
      from) and fork off of a branch from there the same way
-     (e.g. "git branch mingw j6t/master").
+     (e.g. "git branch mingw j6t/main").
 
    Repositories initialized with the traditional layout continue
    to work.
@@ -234,7 +234,7 @@ Updates in v1.5.0 since v1.4.4 series
    means the commit you were at 5 minutes ago, which takes
    branch switching into account.  If you want to know where the
    tip of your current branch was at 5 minutes ago, you need to
-   explicitly say its name (e.g. "master@{5.minutes.ago}") or
+   explicitly say its name (e.g. "main@{5.minutes.ago}") or
    omit the refname altogether i.e. "@{5.minutes.ago}".
 
  - The commits referred to by reflog entries are now protected
@@ -254,7 +254,7 @@ Updates in v1.5.0 since v1.4.4 series
 * Cruft removal
 
  - We used to say "old commits are retrievable using reflog and
-   'master@{yesterday}' syntax as long as you haven't run
+   'main@{yesterday}' syntax as long as you haven't run
    git-prune".  We no longer have to say the latter half of the
    above sentence, as git-prune does not remove things reachable
    from reflog entries.

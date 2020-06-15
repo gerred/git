@@ -12,7 +12,7 @@ Fixes since v1.5.5.1
  * reflog syntax that uses time e.g. "HEAD@{10 seconds ago}:path" did not
    stop parsing at the closing "}".
 
- * "git rev-parse --symbolic-full-name ^master^2" printed solitary "^",
+ * "git rev-parse --symbolic-full-name ^main^2" printed solitary "^",
    but it should print nothing.
 
  * "git commit" did not detect when it failed to write tree objects.

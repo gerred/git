@@ -223,8 +223,8 @@ UI, Workflows & Features
    help users adjust to the new behaviour back then, but we kept it
    around for too long.  The message has finally been removed.
 
- * "git fetch origin master" unlike "git fetch origin" or "git fetch"
-   did not update "refs/remotes/origin/master"; this was an early
+ * "git fetch origin main" unlike "git fetch origin" or "git fetch"
+   did not update "refs/remotes/origin/main"; this was an early
    design decision to keep the update of remote tracking branches
    predictable, but in practice it turns out that people find it more
    convenient to opportunistically update them whenever we have a

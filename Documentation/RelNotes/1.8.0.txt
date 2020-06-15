@@ -39,8 +39,8 @@ UI, Workflows & Features
    "Re: subject" and also from a less common "re: subject", but left
    the even less common "RE: subject" intact.  Now we strip that too.
 
- * It was tempting to say "git branch --set-upstream origin/master",
-   but that tells Git to arrange the local branch "origin/master" to
+ * It was tempting to say "git branch --set-upstream origin/main",
+   but that tells Git to arrange the local branch "origin/main" to
    integrate with the currently checked out branch, which is highly
    unlikely what the user meant.  The option is deprecated; use the
    new "--set-upstream-to" (with a short-and-sweet "-u") option

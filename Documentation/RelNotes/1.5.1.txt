@@ -164,7 +164,7 @@ Updates since v1.5.0
   - "git mailinfo" which splits an e-mail into a patch and the
     meta-information was rewritten, thanks to Don Zickus.  It
     handles nested multipart better.  The command was broken for
-    a brief period on 'master' branch since 1.5.0 but the
+    a brief period on 'main' branch since 1.5.0 but the
     breakage is fixed now.
 
   - send-email learned configurable bcc and chain-reply-to.
@@ -260,7 +260,7 @@ These are all in v1.5.0.x series.
     that was pointed at by the symbolic link.  Both of these
     problems have been fixed.
 
-  - 'git diff maint master next' did not correctly give combined
+  - 'git diff maint main next' did not correctly give combined
     diff across three trees.
 
   - 'git fast-import' portability fix for Solaris.

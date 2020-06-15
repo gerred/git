@@ -94,13 +94,13 @@ Performance, Internal Implementation, Development Support etc.
 
  * The infrastructure to rewrite "git submodule" in C is being built
    incrementally.  Let's polish these early parts well enough and make
-   them graduate to 'next' and 'master', so that the more involved
+   them graduate to 'next' and 'main', so that the more involved
    follow-up can start cooking on a solid ground.
 
  * Some features from "git tag -l" and "git branch -l" have been made
    available to "git for-each-ref" so that eventually the unified
    implementation can be shared across all three.  The version merged
-   to the 'master' branch earlier had a performance regression in "tag
+   to the 'main' branch earlier had a performance regression in "tag
    --contains", which has since been corrected.
 
  * Because "test_when_finished" in our test framework queues the

@@ -14,7 +14,7 @@ Fixes since v1.5.0.1
     that was pointed at by the symbolic link.  Both of these
     problems have been fixed.
 
-  - 'git diff maint master next' did not correctly give combined
+  - 'git diff maint main next' did not correctly give combined
     diff across three trees.
 
   - 'git fast-import' portability fix for Solaris.

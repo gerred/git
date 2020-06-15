@@ -850,8 +850,8 @@ be isolated into log-only files.
 Logs are read backwards
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Logs are frequently accessed backwards (most recent N records for master
-to answer `master@{4}`), so log records are grouped by reference, and
+Logs are frequently accessed backwards (most recent N records for main
+to answer `main@{4}`), so log records are grouped by reference, and
 sorted descending by update index.
 
 Repository format

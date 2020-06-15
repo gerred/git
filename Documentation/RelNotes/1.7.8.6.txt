@@ -16,7 +16,7 @@ Fixes since v1.7.8.5
    received objects was overly pessimistic, and wasted a lot of
    cycles.
 
- * Various minor backports of fixes from the 'master' and the 'maint'
+ * Various minor backports of fixes from the 'main' and the 'maint'
    branch.
 
 Also contains minor fixes and documentation updates.

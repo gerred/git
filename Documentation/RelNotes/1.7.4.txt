@@ -40,7 +40,7 @@ Updates since v1.7.3
    to case insensitivity.
 
  * The <tree>:<path> syntax for naming a blob in a tree, and the :<path>
-   syntax for naming a blob in the index (e.g. "master:Makefile",
+   syntax for naming a blob in the index (e.g. "main:Makefile",
    ":hello.c") have been extended.  You can start <path> with "./" to
    implicitly have the (sub)directory you are in prefixed to the
    lookup.  Similarly, ":../Makefile" from a subdirectory would mean

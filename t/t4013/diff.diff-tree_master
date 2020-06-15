@@ -1,2 +1,2 @@
-$ git diff-tree master
+$ git diff-tree main
 $

@@ -239,8 +239,8 @@ Performance, Internal Implementation, etc.
    things, e.g. refnames and paths in the repository.  This new
    implementation is not expected change the existing behaviour of Git
    in this release, except for "git for-each-ref" where you can now
-   say "refs/**/master" and match with both refs/heads/master and
-   refs/remotes/origin/master.  We plan to use this new implementation
+   say "refs/**/main" and match with both refs/heads/main and
+   refs/remotes/origin/main.  We plan to use this new implementation
    in wider places (e.g. "git ls-files '**/Makefile' may find Makefile
    at the top-level, and "git log '**/t*.sh'" may find commits that
    touch a shell script whose name begins with "t" at any level) in

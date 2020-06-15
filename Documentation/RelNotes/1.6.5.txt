@@ -72,7 +72,7 @@ Updates since v1.6.4
 (usability, bells and whistles)
 
  * Human writable date format to various options, e.g. --since=yesterday,
-   master@{2000.09.17}, are taught to infer some omitted input properly.
+   main@{2000.09.17}, are taught to infer some omitted input properly.
 
  * A few programs gave verbose "advice" messages to help uninitiated
    people when issuing error messages.  An infrastructure to allow

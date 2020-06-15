@@ -196,8 +196,8 @@ notes for details).
    the object being corrupt, but that is not quite true.
    (merge d6c8a05 jk/report-fail-to-read-objects-better later to maint).
 
- * "git log -2master" is a common typo that shows two commits starting
-   from whichever random branch that is not 'master' that happens to
+ * "git log -2main" is a common typo that shows two commits starting
+   from whichever random branch that is not 'main' that happens to
    be checked out currently.
    (merge e3fa568 jc/revision-dash-count-parsing later to maint).
 

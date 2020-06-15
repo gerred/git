@@ -10,5 +10,5 @@ Fixes since v1.8.0.2
  * In the documentation, some invalid example e-mail addresses were
    formatted into mailto: links.
 
-Also contains many documentation updates backported from the 'master'
+Also contains many documentation updates backported from the 'main'
 branch that is preparing for the upcoming 1.8.1 release.

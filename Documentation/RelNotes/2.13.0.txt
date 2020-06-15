@@ -279,7 +279,7 @@ Performance, Internal Implementation, Development Support etc.
    cases (which matter on case insensitive filesystems) has been
    optimized to take advantage of multi-threading when it makes sense.
 
- * An earlier version of sha1dc/sha1.c that was merged to 'master'
+ * An earlier version of sha1dc/sha1.c that was merged to 'main'
    compiled incorrectly on Windows, which has been fixed.
 
  * "what URL do we want to update this submodule?" and "are we

@@ -13,16 +13,16 @@ users still may want to be aware of the changes:
    "git log" family of commands) has changed. It used to list "HEAD"
    just like other branches; e.g.,
 
-     $ git log --decorate -1 master
-     commit bdb0f6788fa5e3cacc4315e9ff318a27b2676ff4 (HEAD, master)
+     $ git log --decorate -1 main
+     commit bdb0f6788fa5e3cacc4315e9ff318a27b2676ff4 (HEAD, main)
      ...
 
    This release changes the output slightly when HEAD refers to a
    branch whose name is also shown in the output. The above is now
    shown as:
 
-     $ git log --decorate -1 master
-     commit bdb0f6788fa5e3cacc4315e9ff318a27b2676ff4 (HEAD -> master)
+     $ git log --decorate -1 main
+     commit bdb0f6788fa5e3cacc4315e9ff318a27b2676ff4 (HEAD -> main)
      ...
 
  * The phrasing "git branch" uses to describe a detached HEAD has been

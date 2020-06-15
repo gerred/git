@@ -1,4 +1,4 @@
-$ git format-patch --stdout --no-numbered initial..master
+$ git format-patch --stdout --no-numbered initial..main
 From 1bde4ae5f36c8d9abe3a0fce0c6aab3c4a12fe44 Mon Sep 17 00:00:00 2001
 From: A U Thor <author@example.com>
 Date: Mon, 26 Jun 2006 00:01:00 +0000

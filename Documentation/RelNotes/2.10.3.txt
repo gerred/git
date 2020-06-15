@@ -11,7 +11,7 @@ Fixes since v2.10.2
 
  * The command-line completion script (in contrib/) learned to
    complete "git cmd ^mas<HT>" to complete the negative end of
-   reference to "git cmd ^master".
+   reference to "git cmd ^main".
 
  * "git send-email" attempts to pick up valid e-mails from the
    trailers, but people in real world write non-addresses there, like

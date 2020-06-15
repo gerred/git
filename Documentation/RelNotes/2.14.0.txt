@@ -339,7 +339,7 @@ notes for details).
    resolve the HEAD symref as many times as it had processed refs,
    which was wasteful, and "git branch" shared the same problem.
 
- * Regression fix to topic recently merged to 'master'.
+ * Regression fix to topic recently merged to 'main'.
 
  * The shell completion script (in contrib/) learned "git stash" has
    a new "push" subcommand.

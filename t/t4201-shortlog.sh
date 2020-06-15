@@ -102,8 +102,8 @@ A U Thor (5):
          it is wrapped correctly
       Thğ„s ğ„s a very, very long fğ„rst lğ„ne for the commğ„t message to see ğ„f
          ğ„t ğ„s wrapped correctly
-      Thø„s ø„s a very, very long fø„rst lø„ne for the commø„t
-         message to see ø„f ø„t ø„s wrapped correctly
+      Thï¿½ï¿½ï¿½ï¿½s ï¿½ï¿½ï¿½ï¿½s a very, very long fï¿½ï¿½ï¿½ï¿½rst lï¿½ï¿½ï¿½ï¿½ne for the commï¿½ï¿½ï¿½ï¿½t
+         message to see ï¿½ï¿½ï¿½ï¿½f ï¿½ï¿½ï¿½ï¿½t ï¿½ï¿½ï¿½ï¿½s wrapped correctly
       a								12	34
          56	78
 
@@ -191,7 +191,7 @@ test_expect_success 'shortlog with revision pseudo options' '
 '
 
 test_expect_success 'shortlog with --output=<file>' '
-	git shortlog --output=shortlog -1 master >output &&
+	git shortlog --output=shortlog -1 main >output &&
 	test_must_be_empty output &&
 	test_line_count = 3 shortlog
 '

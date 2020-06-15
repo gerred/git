@@ -248,16 +248,16 @@ git-subtree repository as a subdirectory of your already existing
 git-extensions repository in ~/git-extensions/:
 
 	$ git subtree add --prefix=git-subtree --squash \
-		git://github.com/apenwarr/git-subtree.git master
+		git://github.com/apenwarr/git-subtree.git main
 
-'master' needs to be a valid remote ref and can be a different branch
+'main' needs to be a valid remote ref and can be a different branch
 name
 
 You can omit the --squash flag, but doing so will increase the number
 of commits that are included in your local repository.
 
 We now have a ~/git-extensions/git-subtree directory containing code
-from the master branch of git://github.com/apenwarr/git-subtree.git
+from the main branch of git://github.com/apenwarr/git-subtree.git
 in our git-extensions repository.
 
 EXAMPLE 2. Extract a subtree using commit, merge and pull
@@ -278,7 +278,7 @@ the upstream.  You could do this:
         	0a8f4f0^.. --onto=1130ef3 --rejoin \
         	--branch gitweb-latest
         $ gitk gitweb-latest
-        $ git push git@github.com:whatever/gitweb.git gitweb-latest:master
+        $ git push git@github.com:whatever/gitweb.git gitweb-latest:main
         
 (We use '0a8f4f0^..' because that means "all the changes from
 0a8f4f0 to the current version, including 0a8f4f0 itself.")
@@ -295,7 +295,7 @@ And you can merge changes back in from the upstream project just
 as easily:
 
 	$ git subtree pull --prefix=gitweb \
-		git@github.com:whatever/gitweb.git master
+		git@github.com:whatever/gitweb.git main
 
 Or, using '--squash', you can actually rewind to an earlier
 version of gitweb:
@@ -338,7 +338,7 @@ Back in your original directory:
 
 Then push the new branch onto the new empty repository:
 
-	$ git push <new-repo> split:master
+	$ git push <new-repo> split:main
 
 
 AUTHOR

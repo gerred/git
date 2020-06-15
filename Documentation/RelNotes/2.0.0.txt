@@ -86,8 +86,8 @@ UI, Workflows & Features
  * Discard the accumulated "heuristics" to guess from which branch the
    result wants to be pulled from and make sure that what the end user
    specified is not second-guessed by "git request-pull", to avoid
-   mistakes.  When you pushed out your 'master' branch to your public
-   repository as 'for-linus', use the new "master:for-linus" syntax to
+   mistakes.  When you pushed out your 'main' branch to your public
+   repository as 'for-linus', use the new "main:for-linus" syntax to
    denote the branch to be pulled.
 
  * "git grep" learned to behave in a way similar to native grep when

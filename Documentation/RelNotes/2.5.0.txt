@@ -346,7 +346,7 @@ notes for details).
    (merge 66d2e04 sb/t1020-cleanup later to maint).
 
  * The "log --decorate" enhancement in Git 2.4 that shows the commit
-   at the tip of the current branch e.g. "HEAD -> master", did not
+   at the tip of the current branch e.g. "HEAD -> main", did not
    work with --decorate=full.
    (merge 429ad20 mg/log-decorate-HEAD later to maint).
 

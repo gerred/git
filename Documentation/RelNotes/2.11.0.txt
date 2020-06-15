@@ -462,7 +462,7 @@ notes for details).
 
  * The command-line completion script (in contrib/) learned to
    complete "git cmd ^mas<HT>" to complete the negative end of
-   reference to "git cmd ^master".
+   reference to "git cmd ^main".
    (merge 49416ad22a cp/completion-negative-refs later to maint).
 
  * The existing "git fetch --depth=<n>" option was hard to use

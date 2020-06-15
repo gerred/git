@@ -81,24 +81,24 @@ if ($#ARGV < 1) {
 	die "usage: test-terminal program args";
 }
 $ENV{TERM} = 'vt100';
-my $master_in = new IO::Pty;
-my $master_out = new IO::Pty;
-my $master_err = new IO::Pty;
-$master_in->set_raw();
-$master_out->set_raw();
-$master_err->set_raw();
-$master_in->slave->set_raw();
-$master_out->slave->set_raw();
-$master_err->slave->set_raw();
-my $pid = start_child(\@ARGV, $master_in->slave, $master_out->slave, $master_err->slave);
-close $master_in->slave;
-close $master_out->slave;
-close $master_err->slave;
-my $in_pid = copy_stdin($master_in);
-copy_stdio($master_out, $master_err);
+my $main_in = new IO::Pty;
+my $main_out = new IO::Pty;
+my $main_err = new IO::Pty;
+$main_in->set_raw();
+$main_out->set_raw();
+$main_err->set_raw();
+$main_in->slave->set_raw();
+$main_out->slave->set_raw();
+$main_err->slave->set_raw();
+my $pid = start_child(\@ARGV, $main_in->slave, $main_out->slave, $main_err->slave);
+close $main_in->slave;
+close $main_out->slave;
+close $main_err->slave;
+my $in_pid = copy_stdin($main_in);
+copy_stdio($main_out, $main_err);
 my $ret = finish_child($pid);
 # If the child process terminates before our copy_stdin() process is able to
-# write all of its data to $master_in, the copy_stdin() process could stall.
+# write all of its data to $main_in, the copy_stdin() process could stall.
 # Send SIGTERM to it to ensure it terminates.
 kill 'TERM', $in_pid;
 finish_child($in_pid);
